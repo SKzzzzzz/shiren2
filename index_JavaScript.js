@@ -268,14 +268,15 @@ function isSearchable(tgtR, tgtC, dFlg) {
 			addR = ANGLE_R_LIST[(num + 1) % ANGLE_LIST.length];
 			addC = ANGLE_C_LIST[(num + 1) % ANGLE_LIST.length];
 			if (!isWalkable(r, c, addR, addC)) {
-				// 右90度
-				addR = ANGLE_R_LIST[(num + 2) % ANGLE_LIST.length];
-				addC = ANGLE_C_LIST[(num + 2) % ANGLE_LIST.length];
 
+				// 左45度
+				addR = ANGLE_R_LIST[(num + 7) % ANGLE_LIST.length];
+				addC = ANGLE_C_LIST[(num + 7) % ANGLE_LIST.length];
 				if (!isWalkable(r, c, addR, addC)) {
-					// 左45度
-					addR = ANGLE_R_LIST[(num + 7) % ANGLE_LIST.length];
-					addC = ANGLE_C_LIST[(num + 7) % ANGLE_LIST.length];
+
+					// 右90度
+					addR = ANGLE_R_LIST[(num + 2) % ANGLE_LIST.length];
+					addC = ANGLE_C_LIST[(num + 2) % ANGLE_LIST.length];
 
 					if (!isWalkable(r, c, addR, addC)) {
 						// 左90度
