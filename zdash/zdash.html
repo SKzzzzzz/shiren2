@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>風来のシレン2_Zダッシュ探索シミュレーター</title>
+	<link rel="stylesheet" href="zdash_css.css">
+</head>
+<body>
+	<p>
+		風来のシレン2　Zダッシュ探索シミュレーター（検証中）
+	</p>
+	
+	<p>
+		<!-- 目的地 -->
+		<img src="icon_goal.png" id="goal" class="goal">
+		<!-- シレン -->
+		<img src="icon_shiren.png" id="shiren" class="shiren">
+
+		<!-- テーブル -->
+		<table id="tbl">
+			<tbody>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td class="td_kabe"></td><td class="td_kabe"></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+			</tbody>
+		</table>
+	</p>
+
+	<p>
+		<!-- 操作ボタン -->
+		<table>
+			<thead>
+				<tr>ダッシュ方向</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="td_btn"><input class="btn" type="button" value="左上" onclick="setAngle(-1,-1);" /></td>
+					<td class="td_btn"><input class="btn" type="button" value=" 上 " onclick="setAngle(-1,0);" /></td>
+					<td class="td_btn"><input class="btn" type="button" value="右上" onclick="setAngle(-1,1);" /></td>
+				</tr>
+				<tr>
+					<td class="td_btn"><input class="btn" type="button" value=" 左 " onclick="setAngle(0,-1);" /></td>
+					<td class="td_btn"></td>
+					<td class="td_btn"><input class="btn" type="button" value=" 右 " onclick="setAngle(0,1);" /></td>
+				</tr>
+				<tr>
+					<td class="td_btn"><input class="btn" type="button" value="左下" onclick="setAngle(1,-1);" /></td>
+					<td class="td_btn"><input class="btn" type="button" value=" 下 " onclick="setAngle(1,0);" /></td>
+					<td class="td_btn"><input class="btn" type="button" value="右下" onclick="setAngle(1,1);" /></td>
+				</tr>
+			</tbody>
+		</table>
+	</p>
+	
+	<p>
+		【凡例】<br>
+		<img src="icon_shiren.png">：シレン　
+		<img src="icon_goal.png">：目的地　
+		<img src="icon_yuka.png">：床　
+		<img src="icon_search.png">：探索範囲　
+		<img src="icon_kabe.png">：壁　<br>
+		<font style="color:rgb(255, 50, 0)">■</font>：シレン→目的地への移動ルート
+		<br>
+		シレンと目的地はドラッグアンドドロップで移動可能
+	</p>
+	
+	<p>
+		【注意】<br>
+		・ブラウザの設定でJavaScriptを有効にしてください<br>
+		・内容の正しさは保証できません<br>
+		　・迂回優先度は必ず右優先としています。低確率で発生する左優先のケースは考慮していません<br>
+	</p>
+
+	<p>
+		挙動について詳細はnoteを参照<br>
+		<a href="https://note.com/lively_auklet817">note（https://note.com/lively_auklet817）</a>
+	</p>
+	
+	<script src="./zdash_JavaScript.js" charset="utf-8"></script>
+</body>
+</html>
