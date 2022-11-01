@@ -113,16 +113,12 @@ function drowSearchArea() {
 				for (var r = tmpR + aglR; 0 <= r && r < maxR && r != srnR + aglR + 4 * count * aglR; r += aglR) {
 					if (isSearchable(r, tmpC, false)) {
 						setSearchColor(r, tmpC);
-					} else {
-						break;
 					}
 				}
 				// 同列
 				for (var c = tmpC + aglC; 0 <= c && c < maxC && c != srnC + aglC + 4 * count * aglC; c += aglC) {
 					if (isSearchable(tmpR, c, false)) {
 						setSearchColor(tmpR, c);
-					} else {
-						break;
 					}
 				}
 
@@ -136,8 +132,6 @@ function drowSearchArea() {
 			for (var r = srnR + aglR; 0 <= r && r < maxR; r += aglR) {
 				if (isSearchable(r, srnC, false)) {
 					setSearchColor(r, srnC);
-				} else {
-					break;
 				}
 			}
 			// 右の列を1列ずつ
@@ -145,8 +139,6 @@ function drowSearchArea() {
 				for (var r = srnR + count * 2 * aglR; 0 <= r && r < maxR; r += aglR) {
 					if (isSearchable(r, c, false)) {
 						setSearchColor(r, c);
-					} else {
-						break;
 					}
 				}
 			}
@@ -155,8 +147,6 @@ function drowSearchArea() {
 				for (var r = srnR + count * 2 * aglR; 0 <= r && r < maxR; r += aglR) {
 					if (isSearchable(r, c, false)) {
 						setSearchColor(r, c);
-					} else {
-						break;
 					}
 				}
 			}
@@ -167,8 +157,6 @@ function drowSearchArea() {
 			for (var c = srnC + aglC; 0 <= c && c < maxC; c += aglC) {
 				if (isSearchable(srnR, c, false)) {
 					setSearchColor(srnR, c);
-				} else {
-					break;
 				}
 			}
 			// 下の行を1行ずつ
@@ -176,8 +164,6 @@ function drowSearchArea() {
 				for (var c = srnC + count * 2 * aglC; 0 <= c && c < maxC; c += aglC) {
 					if (isSearchable(r, c, false)) {
 						setSearchColor(r, c);
-					} else {
-						break;
 					}
 				}
 			}
@@ -186,8 +172,6 @@ function drowSearchArea() {
 				for (var c = srnC + count * 2 * aglC; 0 <= c && c < maxC; c += aglC) {
 					if (isSearchable(r, c, false)) {
 						setSearchColor(r, c);
-					} else {
-						break;
 					}
 				}
 			}
