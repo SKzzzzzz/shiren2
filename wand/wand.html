@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UT8">
+	<title>風来のシレン2_杖識別チェックリスト</title>
+	<link rel="stylesheet" href="wand_css.css">
+</head>
+
+<body>
+	<p>
+		風来のシレン2　杖識別チェックリスト（検証中）
+	</p>
+
+	<form action="#" method="post">
+		<div style="display: flex">
+			<div class="divArea">
+				条件から絞り込む<br>
+				<div class="divBorder">
+					<!-- 入手方法 -->
+					<div class="divArea">
+						入手方法（最果てへの道）
+						<table id="caseFrom">
+							<tbody>
+								<tr>
+									<td class="tdF" id="td_f_yuka"><input type="checkbox" id="f_yuka">床</td>
+									<td class="tdF" id="td_f_henge"><input type="checkbox" id="f_henge">変</td>
+									<td class="tdF" id="td_f_bikuri"><input type="checkbox" id="f_bikuri">ビ</td>
+									<td class="tdF" id="td_f_mise"><input type="checkbox" id="f_mise">店</td>
+									<td class="tdF" id="td_f_gyou"><input type="checkbox" id="f_gyou">行</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<!-- 売値 -->
+					<div class="divArea">
+						売値
+						<table id="caseSell">
+							<tbody>
+								<!-- 300帯 -->
+								<tr>
+									<td class="tdP1" rowspan="1" id="td_s_A"><input type="checkbox" id="s_A"></td>
+									<td class="tdP3" rowspan="1" id="td_s_287"><input type="checkbox" id="s_287">287</td>
+									<td class="tdP2" rowspan="1" id="td_s_300"><input type="checkbox" id="s_300">300</td>
+									<td class="tdP2" rowspan="1" id="td_s_312"><input type="checkbox" id="s_312">312</td>
+									<td class="tdP2" rowspan="1" id="td_s_325"><input type="checkbox" id="s_325">325</td>
+									<td class="tdP2" rowspan="1" id="td_s_337"><input type="checkbox" id="s_337">337</td>
+								</tr>
+
+								<!-- 500帯 -->
+								<tr>
+									<td class="tdP1" rowspan="2" id="td_s_B"><input type="checkbox" id="s_B"></td>
+									<td class="tdP2" rowspan="1" id="td_s_460"><input type="checkbox" id="s_460">460</td>
+									<td class="tdP2" rowspan="1" id="td_s_480"><input type="checkbox" id="s_480">480</td>
+									<td class="tdP2" rowspan="2" id="td_s_500"><input type="checkbox" id="s_500">500</td>
+									<td class="tdP2" rowspan="1" id="td_s_520"><input type="checkbox" id="s_520">520</td>
+									<td class="tdP2" rowspan="1" id="td_s_540"><input type="checkbox" id="s_540">540</td>
+								</tr>
+								<tr>
+									<td class="tdP3" colspan="2" id="td_s_B000"></td>
+									<td class="tdP2" colspan="2" id="td_s_525"><input type="checkbox" id="s_525">525</td>
+								</tr>
+
+								<!-- 600帯 -->
+								<tr>
+									<td class="tdP1" rowspan="2" id="td_s_C"><input type="checkbox" id="s_C"></td>
+									<td class="tdP2" rowspan="1" id="td_s_575"><input type="checkbox" id="s_575">575</td>
+									<td class="tdP2" rowspan="2" id="td_s_600"><input type="checkbox" id="s_600">600</td>
+									<td class="tdP2" rowspan="1" id="td_s_625"><input type="checkbox" id="s_625">625</td>
+									<td class="tdP2" rowspan="1" id="td_s_650"><input type="checkbox" id="s_650">650</td>
+									<td class="tdP2" rowspan="1" id="td_s_675"><input type="checkbox" id="s_675">675</td>
+								</tr>
+								<tr>
+									<td class="tdP2" colspan="1" id="td_s_560"><input type="checkbox" id="s_560">560</td>
+									<td class="tdP2" colspan="3" id="td_s_640"><input type="checkbox" id="s_640">640</td>
+								</tr>
+
+								<!-- 1200帯 -->
+								<tr>
+									<td class="tdP1" rowspan="1" id="td_s_D"><input type="checkbox" id="s_D"></td>
+									<td class="tdP2" rowspan="1" id="td_s_1150"><input type="checkbox" id="s_1150">1150</td>
+									<td class="tdP2" rowspan="1" id="td_s_1200"><input type="checkbox" id="s_1200">1200</td>
+									<td class="tdP2" rowspan="1" id="td_s_1250"><input type="checkbox" id="s_1250">1250</td>
+									<td class="tdP2" rowspan="1" id="td_s_1300"><input type="checkbox" id="s_1300">1300</td>
+									<td class="tdP2" rowspan="1" id="td_s_1350"><input type="checkbox" id="s_1350">1350</td>
+								</tr>
+
+								<!-- 1500帯 -->
+								<tr>
+									<td class="tdP1" rowspan="2" id="td_s_E"><input type="checkbox" id="s_E"></td>
+									<td class="tdP2" rowspan="1" id="td_s_1380"><input type="checkbox" id="s_1380">1380</td>
+									<td class="tdP2" rowspan="1" id="td_s_1440"><input type="checkbox" id="s_1440">1440</td>
+									<td class="tdP2" rowspan="2" id="td_s_1500"><input type="checkbox" id="s_1500">1500</td>
+									<td class="tdP2" rowspan="1" id="td_s_1560"><input type="checkbox" id="s_1560">1560</td>
+									<td class="tdP2" rowspan="1" id="td_s_1620"><input type="checkbox" id="s_1620">1620</td>
+								</tr>
+								<tr>
+									<td class="tdP3" colspan="1" id="td_s_E000"></td>
+									<td class="tdP2" colspan="1" id="td_s_1400"><input type="checkbox" id="s_1400">1400</td>
+									<td class="tdP2" colspan="1" id="td_s_1600"><input type="checkbox" id="s_1600">1600</td>
+									<td class="tdP2" colspan="1" id="td_s_1700"><input type="checkbox" id="s_1700">1700</td>
+								</tr>
+
+								<!-- 1700帯 -->
+								<tr>
+									<td class="tdP1" rowspan="1" id="td_s_F"><input type="checkbox" id="s_F"></td>
+									<td class="tdP3" rowspan="1" id="td_s_1610"><input type="checkbox" id="s_1610">1610</td>
+									<td class="tdP2" rowspan="1" id="td_s_1680"><input type="checkbox" id="s_1680">1680</td>
+									<td class="tdP2" rowspan="1" id="td_s_1750"><input type="checkbox" id="s_1750">1750</td>
+									<td class="tdP2" rowspan="1" id="td_s_1820"><input type="checkbox" id="s_1820">1820</td>
+									<td class="tdP2" rowspan="1" id="td_s_1890"><input type="checkbox" id="s_1890">1890</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<!-- 買値 -->
+					<div class="divArea">
+						買値
+						<table id="caseBuy">
+							<tbody>
+								<!-- 600帯 -->
+								<tr>
+									<td class="tdP1" rowspan="1" id="td_b_A"><input type="checkbox" id="b_A"></td>
+									<td class="tdP3" rowspan="1" id="td_b_575"><input type="checkbox" id="b_575">575</td>
+									<td class="tdP2" rowspan="1" id="td_b_600"><input type="checkbox" id="b_600">600</td>
+									<td class="tdP2" rowspan="1" id="td_b_625"><input type="checkbox" id="b_625">625</td>
+									<td class="tdP2" rowspan="1" id="td_b_650"><input type="checkbox" id="b_650">650</td>
+									<td class="tdP2" rowspan="1" id="td_b_675"><input type="checkbox" id="b_675">675</td>
+								</tr>
+
+								<!-- 1000帯 -->
+								<tr>
+									<td class="tdP1" rowspan="2" id="td_b_B"><input type="checkbox" id="b_B"></td>
+									<td class="tdP3" rowspan="1" id="td_b_920"><input type="checkbox" id="b_920">920</td>
+									<td class="tdP2" rowspan="1" id="td_b_960"><input type="checkbox" id="b_960">960</td>
+									<td class="tdP2" rowspan="2" id="td_b_1000"><input type="checkbox" id="b_1000">1000</td>
+									<td class="tdP2" rowspan="1" id="td_b_1040"><input type="checkbox" id="b_1040">1040</td>
+									<td class="tdP2" rowspan="1" id="td_b_1080"><input type="checkbox" id="b_1080">1080</td>
+								</tr>
+								<tr>
+									<td class="tdP3" colspan="2" id="td_b_B000"></td>
+									<td class="tdP2" colspan="2" id="td_b_1050"><input type="checkbox" id="b_1050">1050</td>
+								</tr>
+
+								<!-- 1300帯 -->
+								<tr>
+									<td class="tdP1" rowspan="1" id="td_b_C"><input type="checkbox" id="b_C"></td>
+									<td class="tdP3" colspan="2" id="td_b_C000"></td>
+									<td class="tdP2" rowspan="1" id="td_b_1250"><input type="checkbox" id="b_1250">1250</td>
+									<td class="tdP2" rowspan="1" id="td_b_1300"><input type="checkbox" id="b_1300">1300</td>
+									<td class="tdP2" rowspan="1" id="td_b_1350"><input type="checkbox" id="b_1350">1350</td>
+								</tr>
+
+								<!-- 1500帯 -->
+								<tr>
+									<td class="tdP1" rowspan="1" id="td_b_D"><input type="checkbox" id="b_D"></td>
+									<td class="tdP2" rowspan="1" id="td_b_1380"><input type="checkbox" id="b_1380">1380</td>
+									<td class="tdP2" rowspan="1" id="td_b_1440"><input type="checkbox" id="b_1440">1440</td>
+									<td class="tdP2" rowspan="1" id="td_b_1500"><input type="checkbox" id="b_1500">1500</td>
+									<td class="tdP2" rowspan="1" id="td_b_1560"><input type="checkbox" id="b_1560">1560</td>
+									<td class="tdP2" rowspan="1" id="td_b_1620"><input type="checkbox" id="b_1620">1620</td>
+								</tr>
+
+								<!-- 2500帯 -->
+								<tr>
+									<td class="tdP1" rowspan="1" id="td_b_E"><input type="checkbox" id="b_E"></td>
+									<td class="tdP2" rowspan="1" id="td_b_2300"><input type="checkbox" id="b_2300">2300</td>
+									<td class="tdP2" rowspan="1" id="td_b_2400"><input type="checkbox" id="b_2400">2400</td>
+									<td class="tdP2" rowspan="1" id="td_b_2500"><input type="checkbox" id="b_2500">2500</td>
+									<td class="tdP2" rowspan="1" id="td_b_2600"><input type="checkbox" id="b_2600">2600</td>
+									<td class="tdP2" rowspan="1" id="td_b_2700"><input type="checkbox" id="b_2700">2700</td>
+								</tr>
+
+								<!-- 3000帯 -->
+								<tr>
+									<td class="tdP1" rowspan="1" id="td_b_F"><input type="checkbox" id="b_F"></td>
+									<td class="tdP2" rowspan="1" id="td_b_2875"><input type="checkbox" id="b_2875">2875</td>
+									<td class="tdP2" rowspan="1" id="td_b_3000"><input type="checkbox" id="b_3000">3000</td>
+									<td class="tdP2" rowspan="1" id="td_b_3125"><input type="checkbox" id="b_3125">3125</td>
+									<td class="tdP2" rowspan="1" id="td_b_3250"><input type="checkbox" id="b_3250">3250</td>
+									<td class="tdP2" rowspan="1" id="td_b_3375"><input type="checkbox" id="b_3375">3375</td>
+								</tr>
+
+								<!-- 3500帯 -->
+								<tr>
+									<td class="tdP1" rowspan="2" id="td_b_G"><input type="checkbox" id="b_G"></td>
+									<td class="tdP3" rowspan="1" id="td_b_G000"></td>
+									<td class="tdP2" rowspan="1" id="td_b_3500"><input type="checkbox" id="b_3500">3500</td>
+									<td class="tdP2" rowspan="2" id="td_b_3750"><input type="checkbox" id="b_3750">3750</td>
+									<td class="tdP2" colspan="2" id="td_b_4000"><input type="checkbox" id="b_4000">4000</td>
+								</tr>
+								<tr>
+									<td class="tdP3" colspan="1" id="td_b_3450"><input type="checkbox" id="b_3450">3450</td>
+									<td class="tdP2" colspan="1" id="td_b_3600"><input type="checkbox" id="b_3600">3600</td>
+									<td class="tdP2" colspan="1" id="td_b_3900"><input type="checkbox" id="b_3900">3900</td>
+									<td class="tdP2" colspan="1" id="td_b_4050"><input type="checkbox" id="b_4050">4050</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- その他 -->
+					<div class="divArea">
+						その他
+						<table id="caseOther">
+							<tbody>
+								<tr>
+									<td class="tdO" id="td_o_ireru"><input type="checkbox" id="o_ireru">いれる </td>
+									<td class="tdO" id="td_o_muhan"><input type="checkbox" id="o_muhan">敵無反応</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div style="width: 10px;"></div>
+			<div class="divArea">
+				杖から絞り込む<br>
+				<div class="divBorder">
+					<!-- 杖 -->
+					<div class="divArea">
+						杖
+						<table id="caseWand">
+							<tbody>
+								<tr>
+									<td class="tdW1" id="td_w_fukitob">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_fukitob" checked>ふきとばしの杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_fukitob_0"></td>
+											<td class="tdW3" id="td_w_fukitob_1"></td>
+											<td class="tdW3" id="td_w_fukitob_2"></td>
+											<td class="tdW3" id="td_w_fukitob_3">3</td>
+											<td class="tdW2" id="td_w_fukitob_4">4</td>
+											<td class="tdW2" id="td_w_fukitob_5">5</td>
+											<td class="tdW2" id="td_w_fukitob_6">6</td>
+											<td class="tdW2" id="td_w_fukitob_7">7</td>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="tdW1" id="td_w_noriutu">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_noriutu" checked>のりうつりの杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_noriutu_0"></td>
+											<td class="tdW3" id="td_w_noriutu_1"></td>
+											<td class="tdW3" id="td_w_noriutu_2"></td>
+											<td class="tdW3" id="td_w_noriutu_3">3</td>
+											<td class="tdW2" id="td_w_noriutu_4">4</td>
+											<td class="tdW2" id="td_w_noriutu_5">5</td>
+											<td class="tdW2" id="td_w_noriutu_6">6</td>
+											<td class="tdW3" id="td_w_noriutu_7">7</td>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="tdW1" id="td_w_bashiga">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_bashiga" checked>場所がえの杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_bashiga_0"></td>
+											<td class="tdW3" id="td_w_bashiga_1"></td>
+											<td class="tdW3" id="td_w_bashiga_2"></td>
+											<td class="tdW3" id="td_w_bashiga_3">3</td>
+											<td class="tdW2" id="td_w_bashiga_4">4</td>
+											<td class="tdW2" id="td_w_bashiga_5">5</td>
+											<td class="tdW2" id="td_w_bashiga_6">6</td>
+											<td class="tdW2" id="td_w_bashiga_7">7</td>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="tdW1" id="td_w_hikiyos">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_hikiyos" checked>引きよせの杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_hikiyos_0"></td>
+											<td class="tdW3" id="td_w_hikiyos_1"></td>
+											<td class="tdW3" id="td_w_hikiyos_2"></td>
+											<td class="tdW3" id="td_w_hikiyos_3">3</td>
+											<td class="tdW2" id="td_w_hikiyos_4">4</td>
+											<td class="tdW2" id="td_w_hikiyos_5">5</td>
+											<td class="tdW2" id="td_w_hikiyos_6">6</td>
+											<td class="tdW2" id="td_w_hikiyos_7">7</td>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="tdW1" id="td_w_koroban">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_koroban" checked>ころばぬ先の杖
+										</div>
+										<table>
+											<td class="tdW2" id="td_w_koroban_0">0</td>
+											<td class="tdW2" id="td_w_koroban_1">1</td>
+											<td class="tdW3" id="td_w_koroban_2"></td>
+											<td class="tdW3" id="td_w_koroban_3"></td>
+											<td class="tdW3" id="td_w_koroban_4"></td>
+											<td class="tdW3" id="td_w_koroban_5"></td>
+											<td class="tdW3" id="td_w_koroban_6"></td>
+											<td class="tdW3" id="td_w_koroban_7"></td>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="tdW1" id="td_w_monoshi">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_monoshi" checked>物知りの杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_monoshi_0"></td>
+											<td class="tdW3" id="td_w_monoshi_1"></td>
+											<td class="tdW3" id="td_w_monoshi_2"></td>
+											<td class="tdW3" id="td_w_monoshi_3">3</td>
+											<td class="tdW3" id="td_w_monoshi_4">4</td>
+											<td class="tdW2" id="td_w_monoshi_5">5</td>
+											<td class="tdW2" id="td_w_monoshi_6">6</td>
+											<td class="tdW2" id="td_w_monoshi_7">7</td>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="tdW1" id="td_w_quarter">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_quarter" checked>クオーターの杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_quarter_0"></td>
+											<td class="tdW3" id="td_w_quarter_1"></td>
+											<td class="tdW3" id="td_w_quarter_2"></td>
+											<td class="tdW3" id="td_w_quarter_3">3</td>
+											<td class="tdW2" id="td_w_quarter_4">4</td>
+											<td class="tdW2" id="td_w_quarter_5">5</td>
+											<td class="tdW2" id="td_w_quarter_6">6</td>
+											<td class="tdW2" id="td_w_quarter_7">7</td>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="tdW1" id="td_w_donsoku">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_donsoku" checked>鈍足の杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_donsoku_0"></td>
+											<td class="tdW3" id="td_w_donsoku_1"></td>
+											<td class="tdW3" id="td_w_donsoku_2"></td>
+											<td class="tdW2" id="td_w_donsoku_3">3</td>
+											<td class="tdW2" id="td_w_donsoku_4">4</td>
+											<td class="tdW2" id="td_w_donsoku_5">5</td>
+											<td class="tdW2" id="td_w_donsoku_6">6</td>
+											<td class="tdW3" id="td_w_donsoku_7">7</td>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="tdW1" id="td_w_fuuinnn">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_fuuinnn" checked>封印の杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_fuuinnn_0"></td>
+											<td class="tdW3" id="td_w_fuuinnn_1"></td>
+											<td class="tdW3" id="td_w_fuuinnn_2"></td>
+											<td class="tdW2" id="td_w_fuuinnn_3">3</td>
+											<td class="tdW2" id="td_w_fuuinnn_4">4</td>
+											<td class="tdW2" id="td_w_fuuinnn_5">5</td>
+											<td class="tdW2" id="td_w_fuuinnn_6">6</td>
+											<td class="tdW3" id="td_w_fuuinnn_7">7</td>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="tdW1" id="td_w_tunnell">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_tunnell" checked>トンネルの杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_tunnell_0"></td>
+											<td class="tdW3" id="td_w_tunnell_1"></td>
+											<td class="tdW3" id="td_w_tunnell_2"></td>
+											<td class="tdW2" id="td_w_tunnell_3">3</td>
+											<td class="tdW2" id="td_w_tunnell_4">4</td>
+											<td class="tdW2" id="td_w_tunnell_5">5</td>
+											<td class="tdW2" id="td_w_tunnell_6">6</td>
+											<td class="tdW2" id="td_w_tunnell_7">7</td>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="tdW1" id="td_w_karabur">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_karabur" checked>からぶりの杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_karabur_0"></td>
+											<td class="tdW3" id="td_w_karabur_1"></td>
+											<td class="tdW3" id="td_w_karabur_2"></td>
+											<td class="tdW2" id="td_w_karabur_3">3</td>
+											<td class="tdW2" id="td_w_karabur_4">4</td>
+											<td class="tdW2" id="td_w_karabur_5">5</td>
+											<td class="tdW2" id="td_w_karabur_6">6</td>
+											<td class="tdW3" id="td_w_karabur_7">7</td>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="tdW1" id="td_w_hibashi">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_hibashi" checked>火ばしらの杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_hibashi_0"></td>
+											<td class="tdW3" id="td_w_hibashi_1"></td>
+											<td class="tdW3" id="td_w_hibashi_2"></td>
+											<td class="tdW3" id="td_w_hibashi_3">3</td>
+											<td class="tdW2" id="td_w_hibashi_4">4</td>
+											<td class="tdW2" id="td_w_hibashi_5">5</td>
+											<td class="tdW2" id="td_w_hibashi_6">6</td>
+											<td class="tdW2" id="td_w_hibashi_7">7</td>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="tdW1" id="td_w_fukouuu">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_fukouuu" checked>不幸の杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_fukouuu_0"></td>
+											<td class="tdW3" id="td_w_fukouuu_1"></td>
+											<td class="tdW3" id="td_w_fukouuu_2"></td>
+											<td class="tdW3" id="td_w_fukouuu_3">3</td>
+											<td class="tdW2" id="td_w_fukouuu_4">4</td>
+											<td class="tdW2" id="td_w_fukouuu_5">5</td>
+											<td class="tdW2" id="td_w_fukouuu_6">6</td>
+											<td class="tdW3" id="td_w_fukouuu_7">7</td>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="tdW1" id="td_w_shiawas">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_shiawas" checked>しあわせの杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_shiawas_0"></td>
+											<td class="tdW3" id="td_w_shiawas_1"></td>
+											<td class="tdW3" id="td_w_shiawas_2"></td>
+											<td class="tdW3" id="td_w_shiawas_3">3</td>
+											<td class="tdW2" id="td_w_shiawas_4">4</td>
+											<td class="tdW2" id="td_w_shiawas_5">5</td>
+											<td class="tdW2" id="td_w_shiawas_6">6</td>
+											<td class="tdW3" id="td_w_shiawas_7">7</td>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="tdW1" id="td_w_kusanag">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_kusanag" checked>草投げの杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_kusanag_0"></td>
+											<td class="tdW3" id="td_w_kusanag_1"></td>
+											<td class="tdW3" id="td_w_kusanag_2"></td>
+											<td class="tdW3" id="td_w_kusanag_3">3</td>
+											<td class="tdW2" id="td_w_kusanag_4">4</td>
+											<td class="tdW2" id="td_w_kusanag_5">5</td>
+											<td class="tdW2" id="td_w_kusanag_6">6</td>
+											<td class="tdW2" id="td_w_kusanag_7">7</td>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="tdW1" id="td_w_kusauke">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_kusauke" checked>草受けの杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_kusauke_0"></td>
+											<td class="tdW3" id="td_w_kusauke_1"></td>
+											<td class="tdW3" id="td_w_kusauke_2"></td>
+											<td class="tdW3" id="td_w_kusauke_3">3</td>
+											<td class="tdW2" id="td_w_kusauke_4">4</td>
+											<td class="tdW2" id="td_w_kusauke_5">5</td>
+											<td class="tdW2" id="td_w_kusauke_6">6</td>
+											<td class="tdW2" id="td_w_kusauke_7">7</td>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="divArea">
+						<table id="caseWandExtra">
+							<tbody>
+								<tr>
+									<td class="tdW1" id="td_w_baisoku">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_baisoku">倍速の杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_baisoku_0"></td>
+											<td class="tdW3" id="td_w_baisoku_1"></td>
+											<td class="tdW3" id="td_w_baisoku_2"></td>
+											<td class="tdW2" id="td_w_baisoku_3">3</td>
+											<td class="tdW2" id="td_w_baisoku_4">4</td>
+											<td class="tdW2" id="td_w_baisoku_5">5</td>
+											<td class="tdW2" id="td_w_baisoku_6">6</td>
+											<td class="tdW2" id="td_w_baisoku_7">7</td>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="tdW1" id="td_w_kaifuku">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_kaifuku">回復の杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_kaifuku_0"></td>
+											<td class="tdW3" id="td_w_kaifuku_1"></td>
+											<td class="tdW3" id="td_w_kaifuku_2"></td>
+											<td class="tdW3" id="td_w_kaifuku_3">3</td>
+											<td class="tdW2" id="td_w_kaifuku_4">4</td>
+											<td class="tdW2" id="td_w_kaifuku_5">5</td>
+											<td class="tdW2" id="td_w_kaifuku_6">6</td>
+											<td class="tdW3" id="td_w_kaifuku_7">7</td>
+										</table>
+									</td>
+
+								</tr>
+								<tr>
+									<td class="tdW1" id="td_w_toumeii">
+										<div style="width: 150px;">
+											<input type="checkbox" id="w_toumeii">とうめいの杖
+										</div>
+										<table>
+											<td class="tdW3" id="td_w_toumeii_0"></td>
+											<td class="tdW3" id="td_w_toumeii_1"></td>
+											<td class="tdW3" id="td_w_toumeii_2"></td>
+											<td class="tdW2" id="td_w_toumeii_3">3</td>
+											<td class="tdW2" id="td_w_toumeii_4">4</td>
+											<td class="tdW2" id="td_w_toumeii_5">5</td>
+											<td class="tdW2" id="td_w_toumeii_6">6</td>
+											<td class="tdW2" id="td_w_toumeii_7">7</td>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="divArea">
+						<input class="btn" type="button" value="すべて選択" onclick="clickAllCheckEvent(true);">
+						<input class="btn" type="button" value="すべて選択解除" onclick="clickAllCheckEvent(false);">
+					</div>
+				</div>
+				<div class="divArea">
+					<input class="btn" type="button" value="初期化" onclick="location.reload();">
+				</div>
+			</div>
+		</div>
+	</form>
+
+	<p>
+		【使い方】<br>
+		・チェックボックスを選択すると対応するマスは白色、対応しないマスは灰色になります<br>
+		・条件→杖はAND探索、条件←杖はOR探索します<br>
+		あとはなんとなく察して
+	</p>
+
+	<p>
+		【参考資料】<br>
+		<a href="https://shiren2.lsx3.com/">風来のシレン2 鬼襲来！シレン城！ 攻略Wiki（https://shiren2.lsx3.com）</a>
+	</p>
+
+	<p>
+		【注意】<br>
+		・ブラウザの設定でJavaScriptを有効にしてください<br>
+		・内容の正しさは保証できません<br>
+		（最終更新日：2023/3/21）
+	</p>
+
+	<p>
+		<a href="https://note.com/lively_auklet817">note（https://note.com/lively_auklet817）</a>
+	</p>
+
+	<script src="./wand_JavaScript.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/* ==============================================
+ * div
+ * ============================================== */
+
+.divArea {
+	padding: 3px;
+}
+
+.divBorder {
+	padding: 3px;
+	border: solid 1px;
+	border-color: rgb(150, 150, 150);
+}
+
+/* ==============================================
+ * テーブル要素
+ * ============================================== */
+table {
+	border-collapse: collapse;
+	vertical-align: middle;
+}
+
+td {
+	border: solid 1px;
+	border-color: rgb(190, 190, 190);
+	background-color: white;
+	text-align: left;
+	vertical-align: middle;
+}
+
+/* 入手方法 */
+.tdF {
+	width: 75px;
+}
+
+/* 売値買値 */
+.tdP1 {
+	width: 25px;
+	text-align: center;
+}
+.tdP2 {
+	width: 70px;
+}
+.tdP3 {
+	width: 70px;
+	color: rgb(170, 170, 170);
+	background-Color: rgb(230, 230, 230);
+}
+
+/* その他 */
+.tdO {
+	width: 100px;
+}
+
+/* 杖 */
+.tdW1 {
+	width: 300px;
+	display: flex;
+}
+.tdW2 {
+	width: 15px;
+	font-size: 50%;
+	text-align: center;
+	color: black;
+}
+.tdW3 {
+	width: 15px;
+	font-size: 50%;
+	text-align: center;
+	color: rgb(170, 170, 170);
+	background-Color: rgb(230, 230, 230);
+}
+
+/* ==============================================
+ * チェックボックス
+ * ============================================== */
+input {
+	accent-color: rgb(160, 180, 255);
+}
+
+/* ==============================================
+ * 操作ボタン
+ * ============================================== */
+.btn {
+	width: 120px;
+	height: 30px;
+}
