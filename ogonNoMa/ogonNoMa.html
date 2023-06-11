@@ -50,11 +50,11 @@
 
 		<!-- 操作ボタン -->
 		<div class="divButton" style="display: flex">
-			<div style="width: 220px">
+			<div style="width: 225px">
 				現在情報<br>
-				<textarea id="txtInfo" readonly style="width: 200px; height: 60px"></textarea>
+				<textarea id="txtInfo" readonly style="width: 185px; height: 70px"></textarea>
 			</div>
-			<div id="divMove" style="width: 130px">
+			<div id="divMove" style="width: 185px">
 				移動先選択<br>
 				<div style="display: flex">
 					<input type="button" id="btnNW" class="btnMove" value="＼" onclick="clickMoveButton('NW')" />
@@ -63,7 +63,7 @@
 				</div>
 				<div style="display: flex">
 					<input type="button" id="btnW" class="btnMove" value="←" onclick="clickMoveButton('W')" />
-					<div style="height: 40px; width: 40px"></div>
+					<div style="height: 50px; width: 50px"></div>
 					<input type="button" id="btnE" class="btnMove" value="→" onclick="clickMoveButton('E')" />
 				</div>
 				<div style="display: flex">
@@ -71,16 +71,15 @@
 					<input type="button" id="btnS" class="btnMove" value="↓" onclick="clickMoveButton('S')" />
 					<input type="button" id="btnSE" class="btnMove" value="＼" onclick="clickMoveButton('SE')" />
 				</div>
-				<div style="height: 5px"></div>
 			</div>
-			<div style="width: 130px">
+			<div style="width: 225px">
 				その他操作<br>
-				<input type="button" class="btnOther" value="高とび草を飲む" onclick="clickJumpButton();" /><br>
-				<input type="button" class="btnOther" value="フルオープン" onclick="clickFullOpenButton();" /><br>
-				<input type="button" class="btnOther" value="リトライ" onclick="clickRetryButton();" /><br>
-			</div>
-			<div>
-				<br>
+				<input type="button" class="btnOther" value="高とび草を飲む" onclick="clickJumpButton();" />
+				<div style="height: 5px"></div>
+				<input type="button" class="btnOther" value="フルオープン" onclick="clickFullOpenButton();" />
+				<div style="height: 5px"></div>
+				<input type="button" class="btnOther" value="リトライ" onclick="clickRetryButton();" />
+				<div style="height: 5px"></div>
 				<input type="button" class="btnOther" value="次のフロアに進む" onclick="clickNextFloorButton('', '');" />
 			</div>
 		</div>

@@ -25,19 +25,10 @@ img {
 /* ==============================================
  * テーブル要素
  * ============================================== */
-table {
-	border: none;
-	vertical-align: middle;
-}
-
-td {
-	height: 40px;
-	width: 40px;
-}
 
 .btnMove {
-	height: 40px;
-	width: 40px;
+	height: 50px;
+	width: 50px;
 	text-align: center;
 	vertical-align: middle;
 	border: solid 1px;
@@ -46,8 +37,8 @@ td {
 }
 
 .btnOther {
-	height: 40px;
-	width: 120px;
+	height: 45px;
+	width: 190px;
 	text-align: center;
 	vertical-align: middle;
 	border: solid 1px;

@@ -278,7 +278,7 @@ function writeTxtInfo() {
 		"黄金の間 " + floorCount + "F\n" +
 		"階段に到達した回数 " + goalCount + "回\n" +
 		"道を引き返した回数 " + turnCount + "回\n" +
-		"高とび草を使った回数 " + jumpCount + "回";
+		"高とび草使用回数 " + jumpCount + "回";
 
 	if (goalFlg) {
 		txtInfo.style.color = "#8080ff";
