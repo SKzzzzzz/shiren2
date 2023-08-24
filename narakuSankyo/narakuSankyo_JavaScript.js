@@ -60,6 +60,16 @@ const MAP_DATA_ARY = {
 		a06: { room: TR, goal: FL, NW: "a07", N: "   ", NE: "a05", W: "a07", E: "a05", SW: "a07", S: "   ", SE: "a05", X: 200, Y: 220 },
 		a07: { room: TR, goal: FL, NW: "a08", N: "a08", NE: "a08", W: "   ", E: "a06", SW: "   ", S: "   ", SE: "a06", X: 40, Y: 190 },
 		a08: { room: TR, goal: TR, NW: "a00", N: "a00", NE: "   ", W: "   ", E: "   ", SW: "a07", S: "a07", SE: "a07", X: 20, Y: 70 }
+	},
+	m05: {
+		a00: { room: TR, goal: FL, NW: "   ", N: "   ", NE: "a01", W: "   ", E: "a01", SW: "a07", S: "a07", SE: "   ", X: 30, Y: 0 },
+		a01: { room: TR, goal: FL, NW: "a00", N: "   ", NE: "a02", W: "a00", E: "a02", SW: "a00", S: "   ", SE: "a02", X: 110, Y: 0 },
+		a02: { room: TR, goal: FL, NW: "a01", N: "   ", NE: "   ", W: "a01", E: "   ", SW: "   ", S: "a03", SE: "a03", X: 310, Y: 0 },
+		a03: { room: TR, goal: TR, NW: "a02", N: "a02", NE: "a02", W: "   ", E: "   ", SW: "a04", S: "a04", SE: "   ", X: 430, Y: 110 },
+		a04: { room: TR, goal: FL, NW: "   ", N: "a03", NE: "a03", W: "a05", E: "   ", SW: "a05", S: "   ", SE: "   ", X: 370, Y: 230 },
+		a05: { room: TR, goal: FL, NW: "a06", N: "   ", NE: "a04", W: "a06", E: "a04", SW: "a06", S: "   ", SE: "a04", X: 260, Y: 230 },
+		a06: { room: TR, goal: FL, NW: "a07", N: "a07", NE: "   ", W: "   ", E: "a05", SW: "   ", S: "   ", SE: "a05", X: 110, Y: 200 },
+		a07: { room: TR, goal: FL, NW: "a00", N: "a00", NE: "   ", W: "   ", E: "   ", SW: "   ", S: "a06", SE: "a06", X: 20, Y: 90 }
 	}
 };
 
@@ -165,7 +175,7 @@ const txtInfo = document.getElementById("txtInfo");
 //-------------------------------------------------
 function writeTxtInfo() {
 	txtInfo.value =
-		"黄金の間 " + floorCount + "F\n" +
+		"奈落山峡 " + floorCount + "F\n" +
 		"階段に到達した回数 " + goalCount + "回\n" +
 		"道を引き返した回数 " + turnCount + "回\n" +
 		"高とび草の使用回数 " + jumpCount + "回";
@@ -359,7 +369,7 @@ function startMap() {
 
 		// マップ決定
 		floorCount++;
-		idx = Math.floor(Math.random() * 5);
+		idx = Math.floor(Math.random() * 6);
 		nowMap = "m" + idx.toString().padStart(2, "0");
 
 		// エリア決定
