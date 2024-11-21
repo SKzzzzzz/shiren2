@@ -37,5 +37,5 @@ function outMapEventEntry(e) {
 }
 function outMapEvent(el) {
 	console.log("out:" + el.src);
-	el.style.filter = "brightness(80%)";
+	el.style.filter = "brightness(70%)";
 }
