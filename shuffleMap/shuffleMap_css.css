@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* ==============================================
+ * マップ
+ * ============================================== */
+
+.divMapBase {
+	border: solid 1px;
+	border-color: rgb(150, 150, 150);
+	background-color: rgb(20, 20, 20);
+}
+
+.divMap {
+	border: none;
+	border-color: rgb(150, 150, 150);
+	background-color: rgb(0, 0, 0);
+	position: relative;
+}
+
+img {
+	position: absolute;
+	visibility: hidden;
+}
+
+/* ==============================================
+ * テーブル要素
+ * ============================================== */
+
+.btnMove {
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	vertical-align: middle;
+	border: solid 1px;
+	border-color: rgb(150, 150, 150);
+	border-radius: 3px;
+}
+
+.btnOther {
+	height: 45px;
+	width: 190px;
+	text-align: center;
+	vertical-align: middle;
+	border: solid 1px;
+	border-color: rgb(150, 150, 150);
+	border-radius: 3px;
+}
+
+.btnOther:hover {
+	background-color: rgb(170,200,255);
+}
