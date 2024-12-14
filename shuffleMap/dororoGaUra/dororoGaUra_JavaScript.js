@@ -460,7 +460,7 @@ function startMap() {
 
 		// マップ決定
 		floorCount++;
-		idx = Math.floor(Math.random() * 11);
+		idx = Math.floor(Math.random() * 12);
 		nowMap = "m" + idx.toString().padStart(2, "0");
 
 		// エリア決定
