@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UT8">
+	<title>風来のシレン2_古都の遺跡（シュテン山上級10-11F）マップ探索シミュレーター</title>
+	<link rel="stylesheet" href="../shuffleMap_css.css">
+</head>
+
+<body>
+	<p>
+		風来のシレン2　古都の遺跡（シュテン山上級10-11F）マップ探索シミュレーター（検証中）
+	</p>
+
+	<form action="#" method="post">
+		<!-- マップキャンバス -->
+		<div id="div" class="divMapBase" style="width: 580px; padding: 10px">
+			<div id="divMap" class="divMap" style="width: 580px; height: 300px">
+				<!-- エリア画像 -->
+				<img id="a00" src="">
+				<img id="a01" src="">
+				<img id="a02" src="">
+				<img id="a03" src="">
+				<img id="a04" src="">
+				<img id="a05" src="">
+				<img id="a06" src="">
+				<img id="a07" src="">
+				<img id="a08" src="">
+				<img id="a09" src="">
+				<img id="a10" src="">
+				<img id="a11" src="">
+				<img id="a12" src="">
+				<img id="a13" src="">
+				<img id="a14" src="">
+				<img id="a15" src="">
+				<img id="a16" src="">
+				<img id="a17" src="">
+				<img id="a18" src="">
+				<img id="a19" src="">
+				<img id="a20" src="">
+				<img id="a21" src="">
+				<img id="a22" src="">
+				<img id="a23" src="">
+				<img id="a24" src="">
+				<img id="a25" src="">
+			</div>
+		</div>
+
+		<div style="height: 10px"></div>
+
+		<!-- 操作ボタン -->
+		<div class="divButton" style="display: flex">
+			<div style="width: 225px">
+				現在情報<br>
+				<textarea id="txtInfo" readonly style="width: 185px; height: 100px"></textarea>
+			</div>
+			<div id="divMove" style="width: 185px">
+				移動先選択<br>
+				<div style="display: flex">
+					<input type="button" id="btnNW" class="btnMove" value="＼" onclick="clickMoveButton('NW')" />
+					<input type="button" id="btnN" class="btnMove" value="↑" onclick="clickMoveButton('N')" />
+					<input type="button" id="btnNE" class="btnMove" value="／" onclick="clickMoveButton('NE')" />
+				</div>
+				<div style="display: flex">
+					<input type="button" id="btnW" class="btnMove" value="←" onclick="clickMoveButton('W')" />
+					<div style="height: 50px; width: 50px"></div>
+					<input type="button" id="btnE" class="btnMove" value="→" onclick="clickMoveButton('E')" />
+				</div>
+				<div style="display: flex">
+					<input type="button" id="btnSW" class="btnMove" value="／" onclick="clickMoveButton('SW')" />
+					<input type="button" id="btnS" class="btnMove" value="↓" onclick="clickMoveButton('S')" />
+					<input type="button" id="btnSE" class="btnMove" value="＼" onclick="clickMoveButton('SE')" />
+				</div>
+			</div>
+			<div style="width: 225px">
+				その他操作<br>
+				<input type="button" class="btnOther" value="高とび草を飲む" onclick="clickJumpButton();" />
+				<div style="height: 5px"></div>
+				<input type="button" class="btnOther" value="フルオープン" onclick="clickFullOpenButton();" />
+				<div style="height: 5px"></div>
+				<input type="button" class="btnOther" value="リトライ" onclick="clickRetryButton();" />
+				<div style="height: 5px"></div>
+				<input type="button" class="btnOther" value="次のフロアに進む" onclick="clickNextFloorButton('', '');" />
+			</div>
+		</div>
+	</form>
+
+	<p>
+		【使い方】<br>
+		・古都の遺跡（シュテン山上級10-11F）を繰り返し探索し続けるツールです<br>
+		・開幕神階段はありません<br>
+		あとはなんとなく察して
+	</p>
+
+	<p>
+		【答え】<br>
+		・<a href="kotoNoIseki_answer.html">風来のシレン2　古都の遺跡（シュテン山上級10-11F）マップ</a>
+	</p>
+
+	<p>
+		【注意】<br>
+		・ブラウザの設定でJavaScriptを有効にしてください<br>
+		・内容の正しさは保証できません<br>
+		（最終更新日：2023/8/25）
+	</p>
+
+	<p>
+		<a href="https://note.com/lively_auklet817">note（https://note.com/lively_auklet817）</a>
+	</p>
+
+	<script src="kotoNoIseki_JavaScript.js" charset="utf-8"></script>
+</body>
+
+</html>
