@@ -101,9 +101,5 @@ const MAP_DATA_ARY = {
 		a07: { room: TR, goal: FL, NW: "a06", N: "   ", NE: "   ", W: "a06", E: "   ", SW: "   ", S: "a08", SE: "a08", X:420, Y: 0 },
 		a08: { room: FL, goal: FL, NW: "a07", N: "a07", NE: "a07", W: "   ", E: "   ", SW: "a09", S: "a09", SE: "a09", X:460, Y:100 },
 		a09: { room: TR, goal: FL, NW: "   ", N: "a08", NE: "a08", W: "a03", E: "   ", SW: "a03", S: "   ", SE: "   ", X:420, Y:200 }
-	},
-	m99: {
-		a00: { room: TR, goal: FL, NW: "   ", N: "   ", NE: "   ", W: "   ", E: "   ", SW: "   ", S: "   ", SE: "   ", X: 0, Y: 0 },
-		a00: { room: TR, goal: FL, NW: "   ", N: "   ", NE: "   ", W: "   ", E: "   ", SW: "   ", S: "   ", SE: "   ", X: 0, Y: 0 }
 	}
 };
