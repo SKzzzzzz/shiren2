@@ -64,10 +64,10 @@ const MAP_DATA_ARY = {
 		a06: { room: TR, goal: FL, NW: "   ", N: "a03", NE: "a03", W: "a05", E: "   ", SW: "a05", S: "   ", SE: "   ", X:270, Y:180 }
 	},
 	m05: {
-		a00: { room: TR, goal: FL, NW: "   ", N: "   ", NE: "   ", W: "   ", E: "a05", SW: "a01", S: "a01", SE: "a05", X: 20, Y: 70 },
+		a00: { room: TR, goal: FL, NW: "   ", N: "   ", NE: "a05", W: "   ", E: "a05", SW: "a01", S: "a01", SE: "   ", X: 20, Y: 70 },
 		a01: { room: TR, goal: FL, NW: "a00", N: "a00", NE: "   ", W: "   ", E: "a03", SW: "a02", S: "a02", SE: "a03", X:140, Y:170 },
 		a02: { room: TR, goal: FL, NW: "a01", N: "a01", NE: "a01", W: "   ", E: "   ", SW: "   ", S: "   ", SE: "   ", X:130, Y:220 },
-		a03: { room: TR, goal: FL, NW: "a01", N: "a01", NE: "   ", W: "   ", E: "a04", SW: "   ", S: "   ", SE: "a04", X:200, Y:200 },
+		a03: { room: TR, goal: FL, NW: "a01", N: "a01", NE: "   ", W: "a01", E: "a04", SW: "   ", S: "a04", SE: "a04", X:200, Y:200 },
 		a04: { room: TR, goal: FL, NW: "a03", N: "   ", NE: "   ", W: "a03", E: "   ", SW: "   ", S: "   ", SE: "   ", X:230, Y:200 },
 		a05: { room: FL, goal: FL, NW: "   ", N: "   ", NE: "a06", W: "a00", E: "a06", SW: "a00", S: "   ", SE: "   ", X:220, Y:110 },
 		a06: { room: TR, goal: FL, NW: "   ", N: "   ", NE: "a07", W: "a05", E: "a07", SW: "a05", S: "   ", SE: "   ", X:270, Y: 70 },
