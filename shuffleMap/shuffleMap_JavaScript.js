@@ -106,7 +106,7 @@ const txtInfo = document.getElementById("txtInfo");
 //-------------------------------------------------
 function writeTxtInfo() {
 	txtInfo.value =
-		"白銀霊峰 " + floorCount + "F\n" +
+		"シャッフルマップ " + floorCount + "F\n" +
 		"階段に到達した回数 " + goalCount + "回\n" +
 		"道を引き返した回数 " + turnCount + "回\n" +
 		"高とび草の使用回数 " + jumpCount + "回";
